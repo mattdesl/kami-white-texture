@@ -1,6 +1,6 @@
 {
   "name": "kami-white-texture",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "creates a 1x1 white WebGL texture",
   "main": "index.js",
   "license": "MIT",
