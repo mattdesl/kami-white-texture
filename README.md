@@ -4,11 +4,21 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-creates a 1x1 white WebGL texture
+Creates a 1x1 white WebGL texture. Often used with [kami-batch](http://github.com/mattdesl/kami-batch) to render filled rectangles and lines efficiently alongside game sprites. 
 
 ## Usage
 
 [![NPM](https://nodei.co/npm/kami-white-texture.png)](https://nodei.co/npm/kami-white-texture/)
+
+```js
+var gl = require('webgl-context')();
+var tex = require('kami-white-texture')(gl);
+
+//bind it...
+tex.bind();
+
+//use it...
+```
 
 ## License
 
